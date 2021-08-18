@@ -33,12 +33,10 @@ At present, the project has been completely open source, including:
 
 - [Resources](#resources)
 
-  * [Classic methods](#1. Classic methods of task-oriented natural language generation（任务型对话生成的经典方法）)
-  * [Methods based on deep learning](#2. Task-oriented natural language generation based on deep learning(基于深度学习的任务型对话生成)	)
+  * [Classic methods](#1. Classic methods of task-oriented natural language generation)
+  * [Methods based on deep learning](#2. Task-oriented natural language generation based on deep learning)
 
 - [Dataset](#dataset)
-
-- [Frontiers](#frontiers)
 
 - [LeaderBoard](#leaderboard)
 
@@ -46,9 +44,7 @@ At present, the project has been completely open source, including:
 
 ## Resources
 
-#### 1. Classic methods of task-oriented natural language generation（任务型对话生成的经典方法）
-
-任务型对话系统研究综述： 基于规则模板／句子规划的方法、基于语言模型的方法。
+#### 1. Classic methods of task-oriented natural language generation
 
 ##### Templete-based
 1. **A versatile system for language generation in conversational system application**`ICSLP 2000` [[pdf]](https://www.isca-speech.org/archive/archive_papers/icslp_2000/i00_3271.pdf)
@@ -88,7 +84,7 @@ At present, the project has been completely open source, including:
 
 
 
-#### 2. Task-oriented natural language generation based on deep learning(基于深度学习的任务型对话生成)	
+#### 2. Task-oriented natural language generation based on deep learning
 
 **RNN-based**
 
@@ -193,13 +189,6 @@ At present, the project has been completely open source, including:
 </tr></tbody>
 </table>
 </div>
-
-
-
-## Frontiers
-
-
-
 
 
 ## LeaderBoard
