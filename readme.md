@@ -1,23 +1,11 @@
-# A Survey on Natural Language Generation: ==......==
+# A Survey on Natural Language Generation: Recent Advances and New Frontiers
 
 ![](https://img.shields.io/badge/Status-building-brightgreen) ![](https://img.shields.io/badge/PRs-Welcome-red) 
 
 This repository contains a list of papers, open-sourced codes, datasets and leaderboards in NLG field which is carefully and comprehensively organized. If you found any error, please don't hesitate to open an issue or pull request.
 
-If you find this repository helpful for your work,  please kindly cite the following paper. The Bibtex are listed below:
 
-==(需要修改)==
 
-<pre>
-@misc{qin2021survey,
-      title={A Survey on Spoken Language Understanding: Recent Advances and New Frontiers}, 
-      author={Libo Qin and Tianbao Xie and Wanxiang Che and Ting Liu},
-      year={2021},
-      eprint={2103.03095},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
-}
-</pre>
 
 ## Contributor
 
@@ -25,13 +13,21 @@ Contributed by [Libo Qin](http://ir.hit.edu.cn/~lbqin/), [Zhouyang Li](https://g
 
 Thanks for supports from our adviser [Wanxiang Che](http://ir.hit.edu.cn/~car/)!
 
+
+
 ## Introduction
 
-==需要添加简介==
+Natural Language Generation (NLG) in task-oriented dialogue system is a critical component in task-oriented dialogue systems. NLG aims to convert dialogue acts into natural language responses, which has attracted increasing research attention.
 
-The taxonomy and frontiers of our survey can be summarized into this picture below.
+For the purpose of alleviating pressure in article/dataset collation, we worked on sorting out the relevant data sets, papers, codes and lists of NLG in this project.
 
-==需要添加图片==
+At present, the project has been completely open source, including:
+
+1. **NLG domain dataset sorting table:** we sorted out the dataset used in NLG field. You can index in it and get the message of general scale, basic structure, content, characteristics, source and acquisition method of the dataset you want to know.
+2. **Articles and infos in different directions in the field of NLG:** we classified and arranged the papers according to the current mainstream frontiers. Each line of the list contains not only the title of the paper, but also the year of publication, the source of publication, the paper link and code link for quick indexing, as well as the dataset used.
+3. **Leaderboard list on the mainstream datasets of NLG:** we sorted out the leaderboard on the mainstream datasets. In addition to the paper/model/method name and related scores, each line also has links to year, paper and code if it has.
+
+
 
 ## Quick path
 
@@ -109,7 +105,7 @@ The taxonomy and frontiers of our survey can be summarized into this picture bel
 
 1. **Sequence-to-Sequence Generation for Spoken Dialogue via Deep Syntax Trees and Strings**(Restaurant dataset) ` ACL 2016`[[pdf]](https://arxiv.org/pdf/1606.05491)[[code]](https://github.com/UFAL-DSG/tgen)
 2. **A Context-aware Natural Language Generator for Dialogue Systems**(alex context nlg dataset) `SIGDIAL 2016`[[pdf]](https://arxiv.org/pdf/1608.07076.pdf)[[code]](https://github.com/UFAL-DSG/tgen)
-3. **A Network-based End-to-End Trainable Task-oriented Dialogue System**(==Woz  dataset？==)`EACL 2017`[[pdf]](https://arxiv.org/pdf/1604.04562.pdf)
+3. **A Network-based End-to-End Trainable Task-oriented Dialogue System**(Woz  dataset)`EACL 2017`[[pdf]](https://arxiv.org/pdf/1604.04562.pdf)
 4. **Adversarial Domain Adaptation for Variational Neural Language Generation in Dialogue Systems**(Restaurant/Hotel/Television/Laptop dataset) `COLING 2018`[[pdf]](https://arxiv.org/pdf/1808.02586.pdf)
 5. **Dual Latent Variable Model for Low-Resource Natural Language Generation in Dialogue Systems** (Restaurant/Hotel/Television/Laptop dataset) `CoNLL 2018`[[pdf]](https://arxiv.org/pdf/1811.04164.pdf)
 6. **Variational Cross-domain Natural Language Generation for Spoken Dialogue Systems**(Restaurant/Hotel/Television/Laptop dataset) `Sigdial 2018`[[pdf]](https://arxiv.org/pdf/1812.08879.pdf)
@@ -118,33 +114,17 @@ The taxonomy and frontiers of our survey can be summarized into this picture bel
 9. **Char2char Generation with Reranking for the E2E NLG Challenge**(E2E challenge dataset) `cs.CL 2018`[[pdf]](https://arxiv.org/pdf/1811.05826.pdf)
 10. **Multi-task Learning for Natural Language Generation in Task-Oriented Dialogue**(E2E challenge dataset) `EMNLP|IJCNLP 2019`[[pdf]](https://aclanthology.org/D19-1123.pdf)
 11. **Constrained Decoding for Neural NLG from Compositional Representations in Task-Oriented Dialogue**(E2E challenge dataset) `ACL 2019`[[pdf]](https://arxiv.org/pdf/1906.07220.pdf)
-12. **Retrospective and Prospective Mixture-of-Generators for Task-Oriented Dialogue Response Generation**(Multi-Domain-Woz  dataset)`arXiv 2020`[[pdf]](https://arxiv.org/pdf/1911.08151.pdf)[[code]](https://github.com/Jiahuan- Pei/multiwoz- mdrg)
-13. **Template Guided Text Generation for Task-Oriented Dialogue**(E2E challenge /SGD/Multi-Domain-Woz/Multi-Domain-Woz-2.1 dataset)`EMNLP 2020`[[pdf]](https://arxiv.org/pdf/2004.15006.pdf)[[code]](https://github.com/google- research/schema-guided-dialogue)
-14. **How to Make Neural Natural Language Generation as Reliable as Templates in Task-Oriented Dialogue**(E2E challenge dataset)`EMNLP 2020|ACL 2020`[[pdf]](http://doras.dcu.ie/25957/1/2020.emnlp-main.230%20%281%29.pdf)[[code]](https://github.com/Henry-E/reliable_ neural_nlg)
+12. **Retrospective and Prospective Mixture-of-Generators for Task-Oriented Dialogue Response Generation**(Multi-Domain-Woz  dataset)`arXiv 2020`[[pdf]](https://arxiv.org/pdf/1911.08151.pdf)[[code]](https://github.com/Jiahuan-Pei/multiwoz- mdrg)
+13. **Template Guided Text Generation for Task-Oriented Dialogue**(E2E challenge /SGD/Multi-Domain-Woz/Multi-Domain-Woz-2.1 dataset)`EMNLP 2020`[[pdf]](https://arxiv.org/pdf/2004.15006.pdf)[[code]](https://github.com/google-research/schema-guided-dialogue)
+14. **How to Make Neural Natural Language Generation as Reliable as Templates in Task-Oriented Dialogue**(E2E challenge dataset)`EMNLP 2020|ACL 2020`[[pdf]](http://doras.dcu.ie/25957/1/2020.emnlp-main.230%20%281%29.pdf)[[code]](https://github.com/Henry-E/reliable_neural_nlg)
 15. **Interpretable NLG for Task-oriented Dialogue Systems with Heterogeneous Rendering Machines**(Restaurant/Hotel/Television/Laptop/E2E challenge  dataset)`AAAI 2021`[[pdf]](https://www.aaai.org/AAAI21Papers/AAAI-3767.LiY.pdf)
 
 **Transformer-based**
 
-1. **Semantically Conditioned Dialog Response Generation via Hierarchical Disentangled Self-Attention**(Multi-Domain-Woz  dataset) `ACL 2019`[[pdf]](https://arxiv.org/pdf/1905.12866.pdf)[[code]]( https://github. com/wenhuchen/HDSA- Dialog)
+1. **Semantically Conditioned Dialog Response Generation via Hierarchical Disentangled Self-Attention**(Multi-Domain-Woz  dataset) `ACL 2019`[[pdf]](https://arxiv.org/pdf/1905.12866.pdf)[[code]]( https://github.com/wenhuchen/HDSA-Dialog)
 2. **Few-shot Natural Language Generation for Task-Oriented Dialog**(Few-Shot-Woz/Multi-Domain-Woz  dataset)`arXiv 2020`[[pdf]](https://arxiv.org/pdf/2002.12328.pdf)[[code]](https://github.com/pengbaolin/SC-GPT)
 3. **Efficient Retrieval Augmented Generation from Unstructured Knowledge for Task-Oriented Dialog**(Multi-Domain-Woz-2.1 dataset)`Workshop of AAAI 2021`[[pdf]](https://arxiv.org/pdf/2102.04643.pdf)[[code]](https://github.com/dthulke/dstc9-track1)
 4. **Unstructured Knowledge Access in Task-oriented Dialog Modeling using Language Inference, Knowledge Retrieval and Knowledge-Integrative Response Generation**(Multi-Domain-Woz-2.1 dataset)`arXiv 2021`[[pdf]](https://arxiv.org/pdf/2101.06066.pdf)
-
-
-
-==未分类==
-
-1. **The E2E Dataset: New Challenges For End-to-End Generation SIGDIAL**`SIGDIAL 2017`[[pdf]](https://arxiv.org/pdf/1706.09254.pdf)[[code]](https://github.com/tuetschek/e2e-metrics)
-
-2. **Meta-Learning for Low-resource Natural Language Generation in Task-oriented Dialogue Systems**(Multi-Domain-Woz dataset)`IJCAI 2019`[[pdf]](https://arxiv.org/pdf/1905.05644.pdf)
-
-3. **Continual Learning for Natural Language Generation in Task-oriented Dialog Systems**(Multi-Domain-Woz-2.0 dataset)`Findgins of EMNLP 2020`[[pdf]](https://arxiv.org/pdf/2010.00910.pdf)[[code]](https://github.com/MiFei/ Continual-Learning-for-NLG)
-
-4. **Slot-consistent NLG for Task-oriented Dialogue Systems with Iterative Rectification Network**(SF Restaurant/SF Hotel/Television/Laptop dataset)`ACL 2020`[[pdf]](https://aclanthology.org/2020.acl-main.10.pdf)
-
-5. **A Task-Oriented Heuristic for Repairing Infeasible Solutions to Overlapping Coalition Structure Generation**` IEEE Transactions on Systems, Man, and Cybernetics: Systems 2020`[[pdf]](https://ieeexplore.ieee.org/abstract/document/7959090)
-
-   
 
 
 
