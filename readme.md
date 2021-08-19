@@ -1,4 +1,4 @@
-# A Survey on Natural Language Generation: Recent Advances and New Frontiers
+# A Survey on Natural Language Generation in Task-Oriented Dialogue System: Recent Advances and New Frontiers
 
 ![](https://img.shields.io/badge/Status-building-brightgreen) ![](https://img.shields.io/badge/PRs-Welcome-red) 
 
@@ -33,8 +33,8 @@ At present, the project has been completely open source, including:
 
 - [Resources](#resources)
 
-  * [Classic methods](#1. Classic methods of task-oriented natural language generation)
-  * [Methods based on deep learning](#2. Task-oriented natural language generation based on deep learning)
+  * [Classic methods](#classic-methods-of-task-oriented-natural-language-generation)
+  * [Methods based on deep learning](#task-oriented-natural-language-generation-based-on-deep-learning)
 
 - [Dataset](#dataset)
 
@@ -44,12 +44,12 @@ At present, the project has been completely open source, including:
 
 ## Resources
 
-#### 1. Classic methods of task-oriented natural language generation
+### Classic methods of task-oriented natural language generation
 
-##### Templete-based
+#### Templete-based
 1. **A versatile system for language generation in conversational system application**`ICSLP 2000` [[pdf]](https://www.isca-speech.org/archive/archive_papers/icslp_2000/i00_3271.pdf)
 
-##### Plan-based
+#### Plan-based
 1. **Trainable sentence planning for complex information presentation in spoken dialog systems**`ACL2004` [[pdf]](https://users.soe.ucsc.edu/~maw/papers/acl04twocolumn.pdf)
 
 2. **Training a sentence planner for spoken dialogue using boosting**`Computer Speech & Language 2002` [[pdf]](https://www.cs.ubc.ca/~carenini/TEACHING/CPSC503-05/spot.pdf)
@@ -66,17 +66,17 @@ At present, the project has been completely open source, including:
 10.  **Towards personality-based user adaptation: psychologically informed stylistic language generation** [[pdf]](https://users.soe.ucsc.edu/%7Emaw/papers/umuai2010.pdf) 
 11.  **Acquiring correct knowledge for natural language generation**`JAIR 2003` [[pdf]](https://www.aaai.org/Papers/JAIR/Vol18/JAIR-1813.pdf)
 
-##### Class-based
+#### Class-based
 1. **Stochastic language generation for spoken dialogue systems** `NAACL 2000` [[pdf]](https://www.aclweb.org/anthology/W00-0306.pdf) 
 2. **Automatic generation of weather forecast texts using comprehensive probabilistic generation-space models**`Natural Language Engineering 2008` [[pdf]](https://arxiv.org/pdf/1509.01023) 
 3. **Bootstrapping lexical choice via multiple-sequence alignment**`EMNLP 2002` [[pdf]](https://www.aclweb.org/anthology/W02-1022.pdf)
 
-#####  Phrase-based
+####  Phrase-based
 1. **Phrase-based statistical language generation using graphical models and active learning**`ACL 2010` [[pdf]](https://www.aclweb.org/anthology/P10-1157.pdf) 
 2. **Imitation learning for language generation from unaligned data**`COLING 2016` [[pdf]](https://www.aclweb.org/anthology/C16-1105.pdf) 
 3. **Training a natural language generator from unaligned data** `ACL 2015` [[pdf]](https://www.aclweb.org/anthology/P15-1044.pdf)
 
-##### Corpus based
+#### Corpus based
 1. **Stochastic language generation for spoken dialogue systems**`NAACL 2000` [[pdf]](https://www.aclweb.org/anthology/W00-0306.pdf) 
 2. **Stochastic language generation in dialogue using factored language models**`ACL 2014` [[pdf]](https://www.aclweb.org/anthology/J14-4003.pdf) 
 3. **A simple domain-independent probabilistic approach to generation**`EMNLP 2010 `[[pdf]](https://www.aclweb.org/anthology/D10-1049.pdf) 
@@ -84,7 +84,7 @@ At present, the project has been completely open source, including:
 
 
 
-#### 2. Task-oriented natural language generation based on deep learning
+### Task-oriented natural language generation based on deep learning
 
 **RNN-based**
 
