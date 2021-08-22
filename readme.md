@@ -1,4 +1,4 @@
-# A Survey on Natural Language Generation in Task-Oriented Dialogue System: Recent Advances and New Frontiers
+# A Survey on Natural Language Generation in Task-Oriented Dialogue System (TOD): Recent Advances and New Frontiers
 
 ![](https://img.shields.io/badge/Status-building-brightgreen) ![](https://img.shields.io/badge/PRs-Welcome-red) 
 
