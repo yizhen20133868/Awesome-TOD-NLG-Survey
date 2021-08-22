@@ -33,7 +33,9 @@ At present, the project has been completely open source, including:
 2. **Articles and infos in different directions in the field of NLG:** we classified and arranged the papers according to the current mainstream frontiers. Each line of the list contains not only the title of the paper, but also the year of publication, the source of publication, the paper link and code link for quick indexing, as well as the dataset used.
 3. **Leaderboard list on the mainstream datasets of NLG:** we sorted out the leaderboard on the mainstream datasets. In addition to the paper/model/method name and related scores, each line also has links to year, paper and code if it has.
 
+The taxonomy of deeplearning-based models in TOD NLG can be summarized into this picture below.
 
+![NLG-taxonomy](taxonomy.png)
 
 ## Quick path
 
