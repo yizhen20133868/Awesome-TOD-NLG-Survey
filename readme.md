@@ -240,7 +240,7 @@ The taxonomy of deeplearning-based models in TOD NLG can be summarized into this
 <tr>
 	<td><code> E2E challenge dataset                              </td></code>
 		<td> 1. Collected using the Crowd-Flower platform. 2. For training end-to-end, data-driven natural language generation systems in the restaurant domain. 3. Homepage: http://www.macs.hw.ac.uk/InteractionLab/E2E/    </td>
-		<td> Download:       https://github.com/tuetschek/e2e-metrics  ;           Paper:      https://arxiv.org/pdf/1706.09254.pdf </td>
+		<td> Download: data(original version):https://github.com/tuetschek/e2e-dataset  data(cleaned version):https://github.com/tuetschek/e2e-cleaning  evaluator:https://github.com/tuetschek/e2e-metrics  ;           Paper:      https://arxiv.org/pdf/1706.09254.pdf </td>
 		<td> Restaurant Information ;However, this dataset has shown more lexical richness and syntactic variation, including discourse phenomena and to generate from this set requires content selection; Dialogue act types: 1  Slots: 8 </td>
 		<td> Train：4862 MRs，42061 References     Dev:547 MRs, 4672 References   Teest: 630 MRs, 4693 References              </td>
 </tr>
