@@ -9,7 +9,7 @@ This repository contains a list of papers, open-sourced codes, datasets and lead
 
 ## Contributor
 
-Contributed by [Libo Qin](http://ir.hit.edu.cn/~lbqin/), [Zhouyang Li](https://github.com/RaleLee),  [Jieming Lou](https://github.com/jimmy19991222), [Qiying Yu](https://github.com/yqy2001), [Wanxiang Che](http://ir.hit.edu.cn/~car/).
+Contributed by [Libo Qin](http://ir.hit.edu.cn/~lbqin/), [Zhouyang Li](https://github.com/RaleLee), [Jieming Lou](https://github.com/jimmy19991222), [Qiying Yu](https://github.com/yqy2001), [Wanxiang Che](http://ir.hit.edu.cn/~car/).
 
 Thanks for supports from our adviser [Wanxiang Che](http://ir.hit.edu.cn/~car/)!
 
