@@ -66,39 +66,39 @@ The taxonomy of deeplearning-based models in TOD NLG can be summarized into this
 <span id='id_1_1'/>
 
 ### 1.1 Templete-based
-&ensp;(1) **NLG vs. Templates**`cs.CL 1995` [[pdf]](https://arxiv.org/pdf/cmp-lg/9504013.pdf)<br>
-&ensp;(2) **A versatile system for language generation in conversational system application**`ICSLP 2000` [[pdf]](https://www.isca-speech.org/archive/archive_papers/icslp_2000/i00_3271.pdf)<br>
-&ensp;(3) **Natural language generation in the ibm flight information system**`ANLP-NAACL 2000 Workshop` [[pdf]](https://aclanthology.org/W00-0305.pdf)<br>
+&ensp;[1] **NLG vs. Templates**`cs.CL 1995` [[pdf]](https://arxiv.org/pdf/cmp-lg/9504013.pdf)<br><br>
+&ensp;[2] **A versatile system for language generation in conversational system application**`ICSLP 2000` [[pdf]](https://www.isca-speech.org/archive/archive_papers/icslp_2000/i00_3271.pdf)<br><br>
+&ensp;[3] **Natural language generation in the ibm flight information system**`ANLP-NAACL 2000 Workshop` [[pdf]](https://aclanthology.org/W00-0305.pdf)<br><br>
 
 <span id='id_1_2'/>
 
 ### 1.2 Plan-based
 
-&ensp;(1) **SPoT: A trainable sentence planner**`NAACL2001` [[pdf]](https://www.aclweb.org/anthology/N01-1003.pdf)<br>
-&ensp;(2) **Training a sentence planner for spoken dialogue using boosting**`Computer Speech & Language 2002` [[pdf]](https://www.cs.ubc.ca/~carenini/TEACHING/CPSC503-05/spot.pdf)<br>
-&ensp;(3) **Response planning and generation in the MERCURY flight reservation system**`Computer Speech & Language 2002` [[pdf]](http://groups.csail.mit.edu/sls/publications/2002/mercury.pdf) <br>
-&ensp;(4) **Acquiring correct knowledge for natural language generation**`JAIR 2003` [[pdf]](https://www.aaai.org/Papers/JAIR/Vol18/JAIR-1813.pdf)<br>
-&ensp;(5) **Trainable sentence planning for complex information presentation in spoken dialog systems**`ACL2004` [[pdf]](https://users.soe.ucsc.edu/~maw/papers/acl04twocolumn.pdf)<br>
-&ensp;(6) **Trainable sentence planning system** [[pdf]](https://scienceon.kisti.re.kr/srch/selectPORSrchPatent.do?cn=USP2010067729918) <br>
-&ensp;(7) **A probabilistic framework for dialog simulation and optimal strategy learning**`IEEE Transactions on Audio, Speech and Language Processing 2006 `[[pdf]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1597262&tag=1) <br>
-&ensp;(8) **An investigation into the validity of some metrics for automatically evaluating natural language generation systems**`ACL 2009` [[pdf]](https://dl.acm.org/doi/pdf/10.1162/coli.2009.35.4.35405) <br>
-&ensp;(9) **Individual and domain adaptation in sentence planning for dialogue**`arXiv 2011` [[pdf]](https://arxiv.org/pdf/1111.0048.pdf)<br>
-&ensp;(10) **Controlling user perceptions of linguistic style: Trainable generation of personality traits**`ACL 2011` [[pdf]](https://www.aclweb.org/anthology/J11-3002.pdf) <br>
-&ensp;(11) **Towards personality-based user adaptation: psychologically informed stylistic language generation** [[pdf]](https://users.soe.ucsc.edu/%7Emaw/papers/umuai2010.pdf) <br>
+&ensp;[1] **SPoT: A trainable sentence planner**`NAACL2001` [[pdf]](https://www.aclweb.org/anthology/N01-1003.pdf)<br><br>
+&ensp;[2] **Training a sentence planner for spoken dialogue using boosting**`Computer Speech & Language 2002` [[pdf]](https://www.cs.ubc.ca/~carenini/TEACHING/CPSC503-05/spot.pdf)<br><br>
+&ensp;[3] **Response planning and generation in the MERCURY flight reservation system**`Computer Speech & Language 2002` [[pdf]](http://groups.csail.mit.edu/sls/publications/2002/mercury.pdf) <br><br>
+&ensp;[4] **Acquiring correct knowledge for natural language generation**`JAIR 2003` [[pdf]](https://www.aaai.org/Papers/JAIR/Vol18/JAIR-1813.pdf)<br><br>
+&ensp;[5] **Trainable sentence planning for complex information presentation in spoken dialog systems**`ACL2004` [[pdf]](https://users.soe.ucsc.edu/~maw/papers/acl04twocolumn.pdf)<br><br>
+&ensp;[6] **Trainable sentence planning system** [[pdf]](https://scienceon.kisti.re.kr/srch/selectPORSrchPatent.do?cn=USP2010067729918) <br><br>
+&ensp;[7] **A probabilistic framework for dialog simulation and optimal strategy learning**`IEEE Transactions on Audio, Speech and Language Processing 2006 `[[pdf]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1597262&tag=1) <br><br>
+&ensp;[8] **An investigation into the validity of some metrics for automatically evaluating natural language generation systems**`ACL 2009` [[pdf]](https://dl.acm.org/doi/pdf/10.1162/coli.2009.35.4.35405) <br><br>
+&ensp;[9] **Individual and domain adaptation in sentence planning for dialogue**`arXiv 2011` [[pdf]](https://arxiv.org/pdf/1111.0048.pdf)<br><br>
+&ensp;[10] **Controlling user perceptions of linguistic style: Trainable generation of personality traits**`ACL 2011` [[pdf]](https://www.aclweb.org/anthology/J11-3002.pdf) <br><br>
+&ensp;[11] **Towards personality-based user adaptation: psychologically informed stylistic language generation** [[pdf]](https://users.soe.ucsc.edu/%7Emaw/papers/umuai2010.pdf) <br><br>
 
 <span id='id_1_3'/>
 
 ### 1.3 Class-based
-&ensp;(1)  **Stochastic language generation for spoken dialogue systems** `NAACL 2000` [[pdf]](https://www.aclweb.org/anthology/W00-0306.pdf) <br>
-&ensp;(2)  **Bootstrapping lexical choice via multiple-sequence alignment**`EMNLP 2002` [[pdf]](https://www.aclweb.org/anthology/W02-1022.pdf)<br>
-&ensp;(3)  **Automatic generation of weather forecast texts using comprehensive probabilistic generation-space models**`Natural Language Engineering 2008` [[pdf]](https://arxiv.org/pdf/1509.01023) <br>
+&ensp;[1]  **Stochastic language generation for spoken dialogue systems** `NAACL 2000` [[pdf]](https://www.aclweb.org/anthology/W00-0306.pdf) <br><br>
+&ensp;[2]  **Bootstrapping lexical choice via multiple-sequence alignment**`EMNLP 2002` [[pdf]](https://www.aclweb.org/anthology/W02-1022.pdf)<br><br>
+&ensp;[3]  **Automatic generation of weather forecast texts using comprehensive probabilistic generation-space models**`Natural Language Engineering 2008` [[pdf]](https://arxiv.org/pdf/1509.01023) <br><br>
 
 <span id='id_1_4'/>
 
 ### 1.4 Phrase-based
-&ensp;(1) **Phrase-based statistical language generation using graphical models and active learning**`ACL 2010` [[pdf]](https://www.aclweb.org/anthology/P10-1157.pdf)<br>
-&ensp;(2) **Training a natural language generator from unaligned data** `ACL 2015` [[pdf]](https://www.aclweb.org/anthology/P15-1044.pdf) <br>
-&ensp;(3) **Imitation learning for language generation from unaligned data**`COLING 2016` [[pdf]](https://www.aclweb.org/anthology/C16-1105.pdf) <br>
+&ensp;[1] **Phrase-based statistical language generation using graphical models and active learning**`ACL 2010` [[pdf]](https://www.aclweb.org/anthology/P10-1157.pdf)<br><br>
+&ensp;[2] **Training a natural language generator from unaligned data** `ACL 2015` [[pdf]](https://www.aclweb.org/anthology/P15-1044.pdf) <br><br>
+&ensp;[3] **Imitation learning for language generation from unaligned data**`COLING 2016` [[pdf]](https://www.aclweb.org/anthology/C16-1105.pdf) <br><br>
 
 
 <span id='id_2'/>
@@ -109,41 +109,41 @@ The taxonomy of deeplearning-based models in TOD NLG can be summarized into this
 
 ### 2.1 RNN-based
 
-&ensp;(1) **Stochastic Language Generation in Dialogue using RNN with Convolutional Sentence Reranking**(Restaurant dataset)`Sigdial 2015`[[pdf]](https://arxiv.org/pdf/1508.01755.pdf)<br>
-&ensp;(2) **Semantically Conditioned LSTM-based NLG for spoken dialogue systems**(Restaurant/Hotel dataset)`EMNLP 2015`[[pdf]](https://arxiv.org/pdf/1508.01745.pdf)<br>
-&ensp;(3) **What to talk about and how? Selective Generation using LSTMs with Coarse-to-Fine Alignment**(WeatherGov/RoboCup dataset)[[pdf]](https://arxiv.org/pdf/1509.00838.pdf)<br>
-&ensp;(4) **Toward multi-domain language generation using recurrent neural networks**(Restaurant/Hotel dataset)`NIPS Workshop 2015`[[pdf]](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.704.4246&rep=rep1&type=pdf)<br>
-&ensp;(5) **Multi-domain Neural Network Language Generation for Spoken Dialogue Systems**(Restaurant/Hotel/Television/Laptop dataset)`NAACL-HLT 2016` [[pdf]](https://arxiv.org/pdf/1603.01232.pdf)<br>
-&ensp;(6) **Neural-based Natural Language Generation in Dialogue using RNN Encoder-Decoder with Semantic Aggregation**(Restaurant/Hotel/Television/Laptop dataset) `SIGDIAL 2017`[[pdf]](https://arxiv.org/pdf/1706.06714.pdf)<br>
+&ensp;[1] **Stochastic Language Generation in Dialogue using RNN with Convolutional Sentence Reranking**(Restaurant dataset)`Sigdial 2015`[[pdf]](https://arxiv.org/pdf/1508.01755.pdf)<br><br>
+&ensp;[2] **Semantically Conditioned LSTM-based NLG for spoken dialogue systems**(Restaurant/Hotel dataset)`EMNLP 2015`[[pdf]](https://arxiv.org/pdf/1508.01745.pdf)<br><br>
+&ensp;[3] **What to talk about and how? Selective Generation using LSTMs with Coarse-to-Fine Alignment**(WeatherGov/RoboCup dataset)[[pdf]](https://arxiv.org/pdf/1509.00838.pdf)<br><br>
+&ensp;[4] **Toward multi-domain language generation using recurrent neural networks**(Restaurant/Hotel dataset)`NIPS Workshop 2015`[[pdf]](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.704.4246&rep=rep1&type=pdf)<br><br>
+&ensp;[5] **Multi-domain Neural Network Language Generation for Spoken Dialogue Systems**(Restaurant/Hotel/Television/Laptop dataset)`NAACL-HLT 2016` [[pdf]](https://arxiv.org/pdf/1603.01232.pdf)<br><br>
+&ensp;[6] **Neural-based Natural Language Generation in Dialogue using RNN Encoder-Decoder with Semantic Aggregation**(Restaurant/Hotel/Television/Laptop dataset) `SIGDIAL 2017`[[pdf]](https://arxiv.org/pdf/1706.06714.pdf)<br><br>
 
 <span id='id_2_2'/>
 
 ### 2.2 Seq2Seq-based
 
-&ensp;(1) **Sequence-to-Sequence Generation for Spoken Dialogue via Deep Syntax Trees and Strings**(Restaurant dataset) `ACL 2016`[[pdf]](https://arxiv.org/pdf/1606.05491)[[code]](https://github.com/UFAL-DSG/tgen)<br>
-&ensp;(2) **A Context-aware Natural Language Generator for Dialogue Systems**(alex context nlg dataset) `SIGDIAL 2016`[[pdf]](https://arxiv.org/pdf/1608.07076.pdf)[[code]](https://github.com/UFAL-DSG/tgen)<br>
-&ensp;(3) **A Network-based End-to-End Trainable Task-oriented Dialogue System**(Woz  dataset)`EACL 2017`[[pdf]](https://arxiv.org/pdf/1604.04562.pdf)<br>
-&ensp;(4) **Adversarial Domain Adaptation for Variational Neural Language Generation in Dialogue Systems**(Restaurant/Hotel/Television/Laptop dataset) `COLING 2018`[[pdf]](https://arxiv.org/pdf/1808.02586.pdf)<br>
-&ensp;(5) **Dual Latent Variable Model for Low-Resource Natural Language Generation in Dialogue Systems** (Restaurant/Hotel/Television/Laptop dataset) `CoNLL 2018`[[pdf]](https://arxiv.org/pdf/1811.04164.pdf)<br>
-&ensp;(6) **Variational Cross-domain Natural Language Generation for Spoken Dialogue Systems**(Restaurant/Hotel/Television/Laptop dataset) `Sigdial 2018`[[pdf]](https://arxiv.org/pdf/1812.08879.pdf)<br>
-&ensp;(7) **A Deep Ensemble Model with Slot Alignment for Sequence-to-Sequence Natural Language Generation**(Restaurant/Television/Laptop dataset) `NAACL 2018`[[pdf]](https://arxiv.org/pdf/1805.06553.pdf)<br>
-&ensp;(8) **A Simple Recipe towards Reducing Hallucination in Neural Surface Realisation**(E2E challenge dataset)`ACL 2018`[[pdf]](https://aclanthology.org/P19-1256.pdf)<br>
-&ensp;(9) **Char2char Generation with Reranking for the E2E NLG Challenge**(E2E challenge dataset) `cs.CL 2018`[[pdf]](https://arxiv.org/pdf/1811.05826.pdf)<br>
-&ensp;(10) **Multi-task Learning for Natural Language Generation in Task-Oriented Dialogue**(E2E challenge dataset) `EMNLP|IJCNLP 2019`[[pdf]](https://aclanthology.org/D19-1123.pdf)<br>
-&ensp;(11) **Constrained Decoding for Neural NLG from Compositional Representations in Task-Oriented Dialogue**(E2E challenge dataset) `ACL 2019`[[pdf]](https://arxiv.org/pdf/1906.07220.pdf)<br>
-&ensp;(12) **Retrospective and Prospective Mixture-of-Generators for Task-Oriented Dialogue Response Generation**(Multi-Domain-Woz  dataset)`arXiv 2020`[[pdf]](https://arxiv.org/pdf/1911.08151.pdf)[[code]](https://github.com/Jiahuan-Pei/multiwoz-mdrg)<br>
-&ensp;(13) **Template Guided Text Generation for Task-Oriented Dialogue**(E2E challenge /SGD/Multi-Domain-Woz/Multi-Domain-Woz-2.1 dataset)`EMNLP 2020`[[pdf]](https://arxiv.org/pdf/2004.15006.pdf)[[code]](https://github.com/google-research/schema-guided-dialogue)<br>
-&ensp;(14) **How to Make Neural Natural Language Generation as Reliable as Templates in Task-Oriented Dialogue**(E2E challenge dataset)`EMNLP 2020|ACL 2020`[[pdf]](http://doras.dcu.ie/25957/1/2020.emnlp-main.230%20%281%29.pdf)[[code]](https://github.com/Henry-E/reliable_neural_nlg)<br>
-&ensp;(15) **Interpretable NLG for Task-oriented Dialogue Systems with Heterogeneous Rendering Machines**(Restaurant/Hotel/Television/Laptop/E2E challenge  dataset)`AAAI 2021`[[pdf]](https://www.aaai.org/AAAI21Papers/AAAI-3767.LiY.pdf)<br>
+&ensp;[1] **Sequence-to-Sequence Generation for Spoken Dialogue via Deep Syntax Trees and Strings**(Restaurant dataset) `ACL 2016`[[pdf]](https://arxiv.org/pdf/1606.05491)[[code]](https://github.com/UFAL-DSG/tgen)<br><br>
+&ensp;[2] **A Context-aware Natural Language Generator for Dialogue Systems**(alex context nlg dataset) `SIGDIAL 2016`[[pdf]](https://arxiv.org/pdf/1608.07076.pdf)[[code]](https://github.com/UFAL-DSG/tgen)<br><br>
+&ensp;[3] **A Network-based End-to-End Trainable Task-oriented Dialogue System**(Woz  dataset)`EACL 2017`[[pdf]](https://arxiv.org/pdf/1604.04562.pdf)<br><br>
+&ensp;[4] **Adversarial Domain Adaptation for Variational Neural Language Generation in Dialogue Systems**(Restaurant/Hotel/Television/Laptop dataset) `COLING 2018`[[pdf]](https://arxiv.org/pdf/1808.02586.pdf)<br><br>
+&ensp;[5] **Dual Latent Variable Model for Low-Resource Natural Language Generation in Dialogue Systems** (Restaurant/Hotel/Television/Laptop dataset) `CoNLL 2018`[[pdf]](https://arxiv.org/pdf/1811.04164.pdf)<br><br>
+&ensp;[6] **Variational Cross-domain Natural Language Generation for Spoken Dialogue Systems**(Restaurant/Hotel/Television/Laptop dataset) `Sigdial 2018`[[pdf]](https://arxiv.org/pdf/1812.08879.pdf)<br><br>
+&ensp;[7] **A Deep Ensemble Model with Slot Alignment for Sequence-to-Sequence Natural Language Generation**(Restaurant/Television/Laptop dataset) `NAACL 2018`[[pdf]](https://arxiv.org/pdf/1805.06553.pdf)<br><br>
+&ensp;[8] **A Simple Recipe towards Reducing Hallucination in Neural Surface Realisation**(E2E challenge dataset)`ACL 2018`[[pdf]](https://aclanthology.org/P19-1256.pdf)<br><br>
+&ensp;[9] **Char2char Generation with Reranking for the E2E NLG Challenge**(E2E challenge dataset) `cs.CL 2018`[[pdf]](https://arxiv.org/pdf/1811.05826.pdf)<br><br>
+&ensp;[10] **Multi-task Learning for Natural Language Generation in Task-Oriented Dialogue**(E2E challenge dataset) `EMNLP|IJCNLP 2019`[[pdf]](https://aclanthology.org/D19-1123.pdf)<br><br>
+&ensp;[11] **Constrained Decoding for Neural NLG from Compositional Representations in Task-Oriented Dialogue**(E2E challenge dataset) `ACL 2019`[[pdf]](https://arxiv.org/pdf/1906.07220.pdf)<br><br>
+&ensp;[12] **Retrospective and Prospective Mixture-of-Generators for Task-Oriented Dialogue Response Generation**(Multi-Domain-Woz  dataset)`arXiv 2020`[[pdf]](https://arxiv.org/pdf/1911.08151.pdf)[[code]](https://github.com/Jiahuan-Pei/multiwoz-mdrg)<br><br>
+&ensp;[13] **Template Guided Text Generation for Task-Oriented Dialogue**(E2E challenge /SGD/Multi-Domain-Woz/Multi-Domain-Woz-2.1 dataset)`EMNLP 2020`[[pdf]](https://arxiv.org/pdf/2004.15006.pdf)[[code]](https://github.com/google-research/schema-guided-dialogue)<br><br>
+&ensp;[14] **How to Make Neural Natural Language Generation as Reliable as Templates in Task-Oriented Dialogue**(E2E challenge dataset)`EMNLP 2020|ACL 2020`[[pdf]](http://doras.dcu.ie/25957/1/2020.emnlp-main.230%20%281%29.pdf)[[code]](https://github.com/Henry-E/reliable_neural_nlg)<br><br>
+&ensp;[15] **Interpretable NLG for Task-oriented Dialogue Systems with Heterogeneous Rendering Machines**(Restaurant/Hotel/Television/Laptop/E2E challenge  dataset)`AAAI 2021`[[pdf]](https://www.aaai.org/AAAI21Papers/AAAI-3767.LiY.pdf)<br><br>
 
 <span id='id_2_3'/>
 
 ### 2.3 Transformer-based
 
-&ensp;(1) **Semantically Conditioned Dialog Response Generation via Hierarchical Disentangled Self-Attention**(Multi-Domain-Woz  dataset) `ACL 2019`[[pdf]](https://arxiv.org/pdf/1905.12866.pdf)[[code]]( https://github.com/wenhuchen/HDSA-Dialog)<br>
-&ensp;(2) **Few-shot Natural Language Generation for Task-Oriented Dialog**(Few-Shot-Woz/Multi-Domain-Woz  dataset)`arXiv 2020`[[pdf]](https://arxiv.org/pdf/2002.12328.pdf)[[code]](https://github.com/pengbaolin/SC-GPT)<br>
-&ensp;(3) **Efficient Retrieval Augmented Generation from Unstructured Knowledge for Task-Oriented Dialog**(Multi-Domain-Woz-2.1 dataset)`Workshop of AAAI 2021`[[pdf]](https://arxiv.org/pdf/2102.04643.pdf)[[code]](https://github.com/dthulke/dstc9-track1)<br>
-&ensp;(4) **Unstructured Knowledge Access in Task-oriented Dialog Modeling using Language Inference, Knowledge Retrieval and Knowledge-Integrative Response Generation**(Multi-Domain-Woz-2.1 dataset)`arXiv 2021`[[pdf]](https://arxiv.org/pdf/2101.06066.pdf)<br>
+&ensp;[1] **Semantically Conditioned Dialog Response Generation via Hierarchical Disentangled Self-Attention**(Multi-Domain-Woz  dataset) `ACL 2019`[[pdf]](https://arxiv.org/pdf/1905.12866.pdf)[[code]]( https://github.com/wenhuchen/HDSA-Dialog)<br><br>
+&ensp;[2] **Few-shot Natural Language Generation for Task-Oriented Dialog**(Few-Shot-Woz/Multi-Domain-Woz  dataset)`arXiv 2020`[[pdf]](https://arxiv.org/pdf/2002.12328.pdf)[[code]](https://github.com/pengbaolin/SC-GPT)<br><br>
+&ensp;[3] **Efficient Retrieval Augmented Generation from Unstructured Knowledge for Task-Oriented Dialog**(Multi-Domain-Woz-2.1 dataset)`Workshop of AAAI 2021`[[pdf]](https://arxiv.org/pdf/2102.04643.pdf)[[code]](https://github.com/dthulke/dstc9-track1)<br><br>
+&ensp;[4] **Unstructured Knowledge Access in Task-oriented Dialog Modeling using Language Inference, Knowledge Retrieval and Knowledge-Integrative Response Generation**(Multi-Domain-Woz-2.1 dataset)`arXiv 2021`[[pdf]](https://arxiv.org/pdf/2101.06066.pdf)<br><br>
 
 
 
