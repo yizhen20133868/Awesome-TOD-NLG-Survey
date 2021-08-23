@@ -49,7 +49,7 @@ The taxonomy of deeplearning-based models in TOD NLG can be summarized into this
   * [Deeplearning-based Methods](#id_2)
   	* [RNN-based](#id_2_1)
   	* [Seq2Seq-based](#id_2_2)
-  	* [Transformer-base](#id_2_3) 
+  	* [Transformer-based](#id_2_3) 
 
 - [Dataset](#dataset)
 
