@@ -17,7 +17,7 @@ Thanks for supports from our adviser [Wanxiang Che](http://ir.hit.edu.cn/~car/)!
 
 ## Introduction
 
-Natural Language Generation (NLG) in task-oriented dialogue system is a critical component in task-oriented dialogue systems, which has attracted increasing research attention.
+Natural Language Generation (NLG) is a critical component in task-oriented dialogue systems, which has attracted increasing research attention.
 
 NLG aims to convert dialogue acts into natural language responses. The example is shown in the table below: the input contains dialogue act *inform* and slot value pairs (name=Blue Spice, priceRange=low, familyFriendly=yes), and the task of NLG is to transform the input into the corresponding natural language reply: "The Blue Spice is a low cost venue. It is a family friendly location."
 
