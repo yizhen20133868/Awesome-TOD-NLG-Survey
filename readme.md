@@ -51,6 +51,14 @@ The taxonomy of deeplearning-based models in TOD NLG can be summarized into this
     * [Seq2Seq-based](#id_2_2)
     * [Transformer-based](#id_2_3) 
 
+- [Frontiers](#frontiers)
+
+  * [Cross-domain NLG](#id_3_1)
+  * [Interpretable NLG](#id_3_2)
+  * [Multi-task learning for NLG](#id_3_3)
+  * [Few-shot NLG](#id_3_4)
+  * [Complex NLG](#id_3_5)
+
 - [Dataset](#dataset)
 
 - [LeaderBoard](#leaderboard)
@@ -67,26 +75,26 @@ The taxonomy of deeplearning-based models in TOD NLG can be summarized into this
 
 ### 1.1 Templete-based
 
-[1] **NLG vs. Templates**`Computational Linguistics 1995` [[pdf]](https://arxiv.org/pdf/cmp-lg/9504013.pdf) 
+[1] **NLG vs. Templates**`Computational Linguistics 1995`[[pdf]](https://arxiv.org/pdf/cmp-lg/9504013.pdf) 
 
-[2] **A versatile system for language generation in conversational system application**`ICSLP 2000` [[pdf]](https://www.isca-speech.org/archive/archive_papers/icslp_2000/i00_3271.pdf) 
+[2] **A versatile system for language generation in conversational system application**`ICSLP 2000`[[pdf]](https://www.isca-speech.org/archive/archive_papers/icslp_2000/i00_3271.pdf) 
 
-[3] **Natural language generation in the ibm flight information system**`ANLP-NAACL 2000 Workshop` [[pdf]](https://aclanthology.org/W00-0305.pdf)
+[3] **Natural language generation in the ibm flight information system**`ANLP-NAACL 2000 Workshop`[[pdf]](https://aclanthology.org/W00-0305.pdf)
 
 
 <span id='id_1_2'/>
 
 ### 1.2 Plan-based
 
-[1] **SPoT: A trainable sentence planner**`NAACL2001` [[pdf]](https://www.aclweb.org/anthology/N01-1003.pdf) 
+[1] **SPoT: A trainable sentence planner**`NAACL2001`[[pdf]](https://www.aclweb.org/anthology/N01-1003.pdf) 
 
-[2] **Training a sentence planner for spoken dialogue using boosting**`Computer Speech & Language 2002` [[pdf]](https://www.cs.ubc.ca/~carenini/TEACHING/CPSC503-05/spot.pdf) 
+[2] **Training a sentence planner for spoken dialogue using boosting**`Computer Speech & Language 2002`[[pdf]](https://www.cs.ubc.ca/~carenini/TEACHING/CPSC503-05/spot.pdf) 
 
-[3] **Response planning and generation in the MERCURY flight reservation system**`Computer Speech & Language 2002` [[pdf]](http://groups.csail.mit.edu/sls/publications/2002/mercury.pdf)  
+[3] **Response planning and generation in the MERCURY flight reservation system**`Computer Speech & Language 2002`[[pdf]](http://groups.csail.mit.edu/sls/publications/2002/mercury.pdf)  
 
-[4] **Acquiring correct knowledge for natural language generation**`JAIR 2003` [[pdf]](https://www.aaai.org/Papers/JAIR/Vol18/JAIR-1813.pdf) 
+[4] **Acquiring correct knowledge for natural language generation**`JAIR 2003`[[pdf]](https://www.aaai.org/Papers/JAIR/Vol18/JAIR-1813.pdf) 
 
-[5] **Trainable sentence planning for complex information presentation in spoken dialog systems**`ACL2004` [[pdf]](https://users.soe.ucsc.edu/~maw/papers/acl04twocolumn.pdf) 
+[5] **Trainable sentence planning for complex information presentation in spoken dialog systems**`ACL2004`[[pdf]](https://users.soe.ucsc.edu/~maw/papers/acl04twocolumn.pdf) 
 
 [6] **Trainable sentence planning system** [[pdf]](https://scienceon.kisti.re.kr/srch/selectPORSrchPatent.do?cn=USP2010067729918)  
 
@@ -95,33 +103,33 @@ The taxonomy of deeplearning-based models in TOD NLG can be summarized into this
 [8] **An investigation into the validity of some metrics for automatically evaluating natural language generation systems** 
  `Computational Linguistics 2009`[[pdf]](https://www.aclweb.org/anthology/J09-4008.pdf) 
 
-[9] **Individual and domain adaptation in sentence planning for dialogue**`arXiv 2011` [[pdf]](https://arxiv.org/pdf/1111.0048.pdf) 
+[9] **Individual and domain adaptation in sentence planning for dialogue**`arXiv 2011`[[pdf]](https://arxiv.org/pdf/1111.0048.pdf) 
 
-[10] **Controlling user perceptions of linguistic style: Trainable generation of personality traits**`ACL 2011` [[pdf]](https://www.aclweb.org/anthology/J11-3002.pdf)  
+[10] **Controlling user perceptions of linguistic style: Trainable generation of personality traits**`ACL 2011`[[pdf]](https://www.aclweb.org/anthology/J11-3002.pdf)  
 
-[11] **Towards personality-based user adaptation: psychologically informed stylistic language generation** [[pdf]](https://users.soe.ucsc.edu/%7Emaw/papers/umuai2010.pdf) 
+[11] **Towards personality-based user adaptation: psychologically informed stylistic language generation**[[pdf]](https://users.soe.ucsc.edu/%7Emaw/papers/umuai2010.pdf) 
 
 
 <span id='id_1_3'/>
 
 ### 1.3 Class-based
 
-[1]  **Stochastic language generation for spoken dialogue systems** `NAACL 2000` [[pdf]](https://www.aclweb.org/anthology/W00-0306.pdf)  
+[1]  **Stochastic language generation for spoken dialogue systems**`NAACL 2000`[[pdf]](https://www.aclweb.org/anthology/W00-0306.pdf)  
 
-[2]  **Bootstrapping lexical choice via multiple-sequence alignment**`EMNLP 2002` [[pdf]](https://www.aclweb.org/anthology/W02-1022.pdf) 
+[2]  **Bootstrapping lexical choice via multiple-sequence alignment**`EMNLP 2002`[[pdf]](https://www.aclweb.org/anthology/W02-1022.pdf) 
 
-[3]  **Automatic generation of weather forecast texts using comprehensive probabilistic generation-space models**`Natural Language Engineering 2008` [[pdf]](https://arxiv.org/pdf/1509.01023) 
+[3]  **Automatic generation of weather forecast texts using comprehensive probabilistic generation-space models**`Natural Language Engineering 2008`[[pdf]](https://arxiv.org/pdf/1509.01023) 
 
 
 <span id='id_1_4'/>
 
 ### 1.4 Phrase-based
 
-[1] **Phrase-based statistical language generation using graphical models and active learning**`ACL 2010` [[pdf]](https://www.aclweb.org/anthology/P10-1157.pdf) 
+[1] **Phrase-based statistical language generation using graphical models and active learning**`ACL 2010`[[pdf]](https://www.aclweb.org/anthology/P10-1157.pdf) 
 
-[2] **Training a natural language generator from unaligned data** `ACL 2015` [[pdf]](https://www.aclweb.org/anthology/P15-1044.pdf)  
+[2] **Training a natural language generator from unaligned data** `ACL 2015`[[pdf]](https://www.aclweb.org/anthology/P15-1044.pdf)  
 
-[3] **Imitation learning for language generation from unaligned data**`COLING 2016` [[pdf]](https://www.aclweb.org/anthology/C16-1105.pdf) 
+[3] **Imitation learning for language generation from unaligned data**`COLING 2016`[[pdf]](https://www.aclweb.org/anthology/C16-1105.pdf) 
 
 
 <span id='id_2'/>
@@ -132,7 +140,7 @@ The taxonomy of deeplearning-based models in TOD NLG can be summarized into this
 
 ### 2.1 RNN-based
 
-[1] **Stochastic Language Generation in Dialogue using RNN with Convolutional Sentence Reranking**(Restaurant dataset) `Sigdial 2015`[[pdf]](https://arxiv.org/pdf/1508.01755.pdf) 
+[1] **Stochastic Language Generation in Dialogue using RNN with Convolutional Sentence Reranking**(Restaurant dataset)`Sigdial 2015`[[pdf]](https://arxiv.org/pdf/1508.01755.pdf) 
 
 [2] **Semantically Conditioned LSTM-based NLG for spoken dialogue systems**(Restaurant/Hotel dataset)`EMNLP 2015`[[pdf]](https://arxiv.org/pdf/1508.01745.pdf) 
 
@@ -152,25 +160,25 @@ The taxonomy of deeplearning-based models in TOD NLG can be summarized into this
 
 [1] **Sequence-to-Sequence Generation for Spoken Dialogue via Deep Syntax Trees and Strings**(Restaurant dataset)`ACL 2016`[[pdf]](https://arxiv.org/pdf/1606.05491)[[code]](https://github.com/UFAL-DSG/tgen) 
 
-[2] **A Context-aware Natural Language Generator for Dialogue Systems**(alex context nlg dataset) `SIGDIAL 2016`[[pdf]](https://arxiv.org/pdf/1608.07076.pdf)[[code]](https://github.com/UFAL-DSG/tgen) 
+[2] **A Context-aware Natural Language Generator for Dialogue Systems**(alex context nlg dataset)`SIGDIAL 2016`[[pdf]](https://arxiv.org/pdf/1608.07076.pdf)[[code]](https://github.com/UFAL-DSG/tgen) 
 
 [3] **A Network-based End-to-End Trainable Task-oriented Dialogue System**(Woz  dataset)`EACL 2017`[[pdf]](https://arxiv.org/pdf/1604.04562.pdf) 
 
-[4] **Adversarial Domain Adaptation for Variational Neural Language Generation in Dialogue Systems** (Restaurant/Hotel/Television/Laptop dataset) `COLING 2018`[[pdf]](https://arxiv.org/pdf/1808.02586.pdf) 
+[4] **Adversarial Domain Adaptation for Variational Neural Language Generation in Dialogue Systems** (Restaurant/Hotel/Television/Laptop dataset)`COLING 2018`[[pdf]](https://arxiv.org/pdf/1808.02586.pdf) 
 
-[5] **Dual Latent Variable Model for Low-Resource Natural Language Generation in Dialogue Systems** (Restaurant/Hotel/Television/Laptop dataset) `CoNLL 2018`[[pdf]](https://arxiv.org/pdf/1811.04164.pdf) 
+[5] **Dual Latent Variable Model for Low-Resource Natural Language Generation in Dialogue Systems** (Restaurant/Hotel/Television/Laptop dataset)`CoNLL 2018`[[pdf]](https://arxiv.org/pdf/1811.04164.pdf) 
 
-[6] **Variational Cross-domain Natural Language Generation for Spoken Dialogue Systems**(Restaurant/Hotel/Television/Laptop dataset) `Sigdial 2018`[[pdf]](https://arxiv.org/pdf/1812.08879.pdf) 
+[6] **Variational Cross-domain Natural Language Generation for Spoken Dialogue Systems**(Restaurant/Hotel/Television/Laptop dataset)`Sigdial 2018`[[pdf]](https://arxiv.org/pdf/1812.08879.pdf) 
 
-[7] **A Deep Ensemble Model with Slot Alignment for Sequence-to-Sequence Natural Language Generation** (Restaurant/Television/Laptop dataset) `NAACL 2018`[[pdf]](https://arxiv.org/pdf/1805.06553.pdf) 
+[7] **A Deep Ensemble Model with Slot Alignment for Sequence-to-Sequence Natural Language Generation** (Restaurant/Television/Laptop dataset)`NAACL 2018`[[pdf]](https://arxiv.org/pdf/1805.06553.pdf) 
 
 [8] **A Simple Recipe towards Reducing Hallucination in Neural Surface Realisation**(E2E challenge dataset)`ACL 2018`[[pdf]](https://aclanthology.org/P19-1256.pdf) 
 
-[9] **Char2char Generation with Reranking for the E2E NLG Challenge**(E2E challenge dataset) `cs.CL 2018`[[pdf]](https://arxiv.org/pdf/1811.05826.pdf) 
+[9] **Char2char Generation with Reranking for the E2E NLG Challenge**(E2E challenge dataset)`cs.CL 2018`[[pdf]](https://arxiv.org/pdf/1811.05826.pdf) 
 
-[10] **Multi-task Learning for Natural Language Generation in Task-Oriented Dialogue**(E2E challenge dataset) `EMNLP|IJCNLP 2019`[[pdf]](https://aclanthology.org/D19-1123.pdf) 
+[10] **Multi-task Learning for Natural Language Generation in Task-Oriented Dialogue**(E2E challenge dataset)`EMNLP|IJCNLP 2019`[[pdf]](https://aclanthology.org/D19-1123.pdf) 
 
-[11] **Constrained Decoding for Neural NLG from Compositional Representations in Task-Oriented Dialogue**(E2E challenge dataset) `ACL 2019`[[pdf]](https://arxiv.org/pdf/1906.07220.pdf) 
+[11] **Constrained Decoding for Neural NLG from Compositional Representations in Task-Oriented Dialogue**(E2E challenge dataset)`ACL 2019`[[pdf]](https://arxiv.org/pdf/1906.07220.pdf) 
 
 [12] **Retrospective and Prospective Mixture-of-Generators for Task-Oriented Dialogue Response Generation**(Multi-Domain-Woz dataset)`arXiv 2020`[[pdf]](https://arxiv.org/pdf/1911.08151.pdf)[[code]](https://github.com/Jiahuan-Pei/multiwoz-mdrg) 
 
@@ -185,15 +193,54 @@ The taxonomy of deeplearning-based models in TOD NLG can be summarized into this
 
 ### 2.3 Transformer-based
 
-[1] **Semantically Conditioned Dialog Response Generation via Hierarchical Disentangled Self-Attention**(Multi-Domain-Woz dataset) `ACL 2019`[[pdf]](https://arxiv.org/pdf/1905.12866.pdf)[[code]]( https://github.com/wenhuchen/HDSA-Dialog) 
+[1] **Semantically Conditioned Dialog Response Generation via Hierarchical Disentangled Self-Attention**(Multi-Domain-Woz dataset)`ACL 2019`[[pdf]](https://arxiv.org/pdf/1905.12866.pdf)[[code]]( https://github.com/wenhuchen/HDSA-Dialog) 
 
-[2] **Few-shot Natural Language Generation for Task-Oriented Dialog**(Few-Shot-Woz/Multi-Domain-Woz  dataset) `arXiv 2020`[[pdf]](https://arxiv.org/pdf/2002.12328.pdf)[[code]](https://github.com/pengbaolin/SC-GPT) 
+[2] **Few-shot Natural Language Generation for Task-Oriented Dialog**(Few-Shot-Woz/Multi-Domain-Woz dataset)`arXiv 2020`[[pdf]](https://arxiv.org/pdf/2002.12328.pdf)[[code]](https://github.com/pengbaolin/SC-GPT) 
 
 [3] **Efficient Retrieval Augmented Generation from Unstructured Knowledge for Task-Oriented Dialog**(Multi-Domain-Woz-2.1 dataset)`Workshop of AAAI 2021`[[pdf]](https://arxiv.org/pdf/2102.04643.pdf)[[code]](https://github.com/dthulke/dstc9-track1) 
 
 [4] **Unstructured Knowledge Access in Task-oriented Dialog Modeling using Language Inference, Knowledge Retrieval and Knowledge-Integrative Response Generation**(Multi-Domain-Woz-2.1 dataset)`arXiv 2021`[[pdf]](https://arxiv.org/pdf/2101.06066.pdf)
 
 
+## Frontiers
+
+<span id='id_3_1'/>
+
+### 1. Cross-domain NLG
+
+[1] **Toward multi-domain language generation using recurrent neural networks**(Restaurant/Hotel dataset)`NIPS Workshop 2015`[[pdf]](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.704.4246&rep=rep1&type=pdf) 
+
+[2] **Adversarial Domain Adaptation for Variational Neural Language Generation in Dialogue Systems**(Restaurant/Hotel/Television/Laptop dataset)`COLING 2018`[[pdf]](https://arxiv.org/pdf/1808.02586.pdf) 
+
+[3] **Variational Cross-domain Natural Language Generation for Spoken Dialogue Systems**(Restaurant/Hotel/Television/Laptop dataset)`Sigdial 2018`[[pdf]](https://arxiv.org/pdf/1812.08879.pdf) 
+
+<span id='id_3_2'/>
+
+### 2. Interpretable NLG
+
+[1] **Interpretable NLG for Task-oriented Dialogue Systems with Heterogeneous Rendering Machines**(Restaurant/Hotel/Television/Laptop/E2E challenge dataset)`AAAI 2021`[[pdf]](https://www.aaai.org/AAAI21Papers/AAAI-3767.LiY.pdf)
+
+<span id='id_3_3'/>
+
+### 3. Multi-task learning for NLG
+
+[1] **Multi-task learning for natural language generation in task-oriented dialogue**(E2E challenge dataset)`EMNLP|IJCNLP 2019`[[pdf]](https://aclanthology.org/D19-1123.pdf) 
+
+[2] **Dual Supervised Learning for Natural Language Understanding and Generation**(E2E challenge dataset)`ACL 2019`[[pdf]](https://arxiv.org/pdf/1905.06196.pdf)[[code]](https://github.com/MiuLab/DuaLUG)
+
+<span id='id_3_4'/>
+
+### 4. Few-shot NLG
+
+[1] **Few-shot Natural Language Generation for Task-Oriented Dialog**(Few-Shot-Woz/Multi-Domain-Woz dataset)`arXiv 2020`[[pdf]](https://arxiv.org/pdf/2002.12328.pdf)[[code]](https://github.com/pengbaolin/SC-GPT) 
+
+[2]**Few-shot Natural Language Generation using Self-trained Data Augmentation**(Few-Shot-Woz dataset)`ACL 2021`[[pdf]](https://arxiv.org/pdf/2106.05589.pdf)[[code]](https: //github.com/XinnuoXu/AugNLG.)
+
+<span id='id_3_5'/>
+
+### 5. Complex NLG
+
+[1] **Constrained Decoding for Neural NLG from Compositional Representations in Task-Oriented Dialogue**(E2E challenge dataset)`ACL 2019`[[pdf]](https://arxiv.org/pdf/1906.07220.pdf) 
 
 ## Dataset
 
@@ -829,7 +876,7 @@ Multi-Domain-Woz dataset
 		<td> 88.37   </td>
     <td> 30.76 </td>
 		<td> Paper: Few-shot Natural Language Generation for Task-Oriented Dialog[[pdf]](https://arxiv.org/pdf/2002.12328.pdf) </td>
-		<td>  https://github.com/pengbaolin/ SC-GPT      </td>
+		<td>  https://github.com/pengbaolin/SC-GPT      </td>
 		<td> arXiv  </td>
 		<td></td>
 </tr>
@@ -838,7 +885,7 @@ Multi-Domain-Woz dataset
 		<td> 87.70   </td>
     <td> 30.71 </td>
 		<td> Paper: Few-shot Natural Language Generation for Task-Oriented Dialog[[pdf]](https://arxiv.org/pdf/2002.12328.pdf) </td>
-		<td>  https://github.com/pengbaolin/ SC-GPT      </td>
+		<td>  https://github.com/pengbaolin/SC-GPT      </td>
 		<td> arXiv  </td>
 		<td></td>
 </tr> 
@@ -847,7 +894,7 @@ Multi-Domain-Woz dataset
 		<td> 87.30   </td>
     <td> 26.48 </td>
 		<td> Paper： Semantically Conditioned Dialog Response Generation via Hierarchical Disentangled Self-Attention[[pdf]](https://arxiv.org/pdf/1905.12866.pdf) </td>
-		<td>  https://github. com/wenhuchen/HDSA- Dialog      </td>
+		<td>  https://github.com/wenhuchen/HDSA-Dialog      </td>
 		<td> ACL  </td>
 		<td></td>
 </tr>
@@ -923,7 +970,7 @@ Multi-Domain-Woz-2.1 dataset
 		<td> 84.51   </td>
     <td> 19.54 </td>
 		<td> Paper: Multi-Domain Dialogue Acts and Response Co-Generation[[pdf]](https://arxiv.org/pdf/2004.12363.pdf) </td>
-		<td> https://github.com/InitialBug/ MarCo-Dialog      </td>
+		<td> https://github.com/InitialBug/MarCo-Dialog      </td>
 		<td> ACL  </td>
 		<td></td>
 </tr>
@@ -941,7 +988,7 @@ Multi-Domain-Woz-2.1 dataset
 		<td> 86.45   </td>
     <td> 16.70 </td>
 		<td> Paper: UBAR: Towards Fully End-to-End Task-Oriented Dialog System with GPT-2[[pdf]](https://arxiv.org/pdf/2012.03539.pdf) </td>
-		<td> https://github.com/ TonyNemo/UBAR- MultiWOZ      </td>
+		<td> https://github.com/TonyNemo/UBAR-MultiWOZ      </td>
 		<td> AAAI  </td>
 		<td></td>
 </tr>
@@ -959,7 +1006,7 @@ Multi-Domain-Woz-2.1 dataset
 		<td> 78.87   </td>
     <td> 16.22 </td>
 		<td> Paper: A Simple Language Model for Task-Oriented Dialogue[[pdf]](https://arxiv.org/pdf/2005.00796.pdf) </td>
-		<td>  https://github.com/ salesforce/simpletod      </td>
+		<td>  https://github.com/salesforce/simpletod      </td>
 		<td> arXiv  </td>
 		<td></td>
 </tr>
